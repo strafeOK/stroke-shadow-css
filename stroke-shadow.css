@@ -1,0 +1,37 @@
+:root {
+  --shadow-color: #56e39f;
+  --stroke-color: #292f36;
+  --shadow-size: 6px;
+  --stroke-size: 3px;
+}
+
+.shadow_text {
+  text-shadow: var(--shadow-size) var(--shadow-size) var(--shadow-color);
+}
+.shadow_box {
+  box-shadow: var(--shadow-size) var(--shadow-size) 0 0 var(--shadow-color);
+}
+.shadow_box-clear {
+  position: relative;
+}
+.shadow_box-clear:after {
+  content: "";
+  background-color: var(--shadow-color);
+  top: calc(var(--shadow-size) + var(--stroke-size));
+  left: calc(var(--shadow-size) + var(--stroke-size));
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.stroke_text {
+  -moz-text-stroke-width: var(--stroke-size);
+  -webkit-text-stroke-width: var(--stroke-size);
+  -moz-text-stroke-color: var(--stroke-color);
+  -webkit-text-stroke-color: var(--stroke-color);
+  color: transparent;
+}
+.stroke_box {
+  stroke: solid var(--stroke-size) var(--stroke-color);
+  background-color: transparent;
+}
