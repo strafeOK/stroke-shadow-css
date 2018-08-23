@@ -32,6 +32,6 @@
   color: transparent;
 }
 .stroke_box {
-  stroke: solid var(--stroke-size) var(--stroke-color);
+  border: solid var(--stroke-size) var(--stroke-color);
   background-color: transparent;
 }
