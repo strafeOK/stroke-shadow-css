@@ -18,5 +18,12 @@ YES! I've kept it very simple so you can easily switch it to SCSS, SASS, LESS or
 ## Cool so does it come in SASS and LESS?
 Not right now, that will be the next update though! :D
 
+---
+
 [First project that started this all](https://codepen.io/strafeOK/pen/YjQKeZ)
+
 [Test enviroment to see how it works](https://codepen.io/strafeOK/pen/zJvZzg)
+
+[Work in progress SCSS pen](https://codepen.io/strafeOK/pen/wEadwO)
+
+[Work in progress CSS pen](https://codepen.io/strafeOK/pen/wxRGgB)
